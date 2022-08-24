@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/ic_launcher_foreground"
+    android:gravity="center"
+
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:text="Play With Number, Guess A Number And Try To Match With Hidden Number."
+        android:gravity="center"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editText"
+
+        android:hint="Guess A Number Between 1-10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#06F843"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/guessButton"
+        android:text="Guess"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+</LinearLayout>
